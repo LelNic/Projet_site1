@@ -43,18 +43,15 @@ main {
     display: flex;
     flex-direction: row-reverse;
     background-color: var(--beige);
-    margin: 3%;
+    margin: 0;
    
-}
-
-#soldatPlage { 
-
 }
 
 article {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
+    margin-right: 5vh;
 }
 
 #h1History {

@@ -193,6 +193,8 @@ main {
 
 nav {
   height: 10vh;
+  position: fixed;
+  width: 100%;
   background: rgba(80, 92, 63, 0.9);
 }
 
@@ -205,7 +207,7 @@ nav ul {
 
 nav ul li {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   width: 15vw;
   text-align: center;
@@ -272,29 +274,37 @@ p {
 
 #ligne {
   height: 1vh;
+  position: fixed;
+  width: 100%;
+  margin-top: 10vh;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 1;
 }
 
 #ligne a {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: white;
 }
 
-#ligne a:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-#ligne a:nth-child(3):hover {
-  background-color: rgba(0, 0, 0, 0);
-}
 
 #ligne a:hover {
   background-color: var(--lime);
+}
+#logo {
+  position: fixed;
+  left: 50%;
+  margin-left: -5vw;
+  top: -3vh;
+}
+
+#logo img {
+  width: 10vw;
+  z-index: 2;
 }
 
 #shay {

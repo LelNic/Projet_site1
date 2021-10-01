@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --noir: #202426;
+  --lime: #adcd62;
+  --vert: #4f593f;
+  --marron: #b7aea7;
+  --beige: #e4e0df;
+}
+
+body {
+  font-family: "Bodoni Moda", serif;
+  background-color: var(--noir);
+  color: var(--beige);
+}
+
+nav {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  background-color: var(--vert);
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+article h1 {
+  color: var(--lime);
+}
+
+.package_img {
+  width: 20%;
+  height: auto;
+  margin: 4rem;
+}

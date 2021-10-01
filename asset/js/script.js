@@ -1,19 +1,26 @@
-const url = window.location.pathname;
-let page = "";
+const url = window.location.hash;
+let position = "";
 
 switch (url) {
-  case "/index.html":
-    page = "home";
+  case "#history":
+    position = document.querySelector(".history");
+    position.classList.toggle("visited");
     break;
 
-  case "/shay.html":
-    const position = document.querySelector(".notVisited");
+  case "#shay":
+    position = document.querySelector(".shay");
     position.classList.toggle("visited");
+    break;
 
-    page = "shay";
+  case "#package":
+    position = document.querySelector(".package");
+    position.classList.toggle("visited");
+    break;
+
+  case "#reconstitution":
+    position = document.querySelector(".reconstitution");
+    position.classList.toggle("visited");
     break;
   default:
     page = "other";
 }
-
-console.log(url);

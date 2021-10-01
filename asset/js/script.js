@@ -4,8 +4,8 @@ let page = "";
 switch (url) {
   case "/index.html":
     page = "home";
-
     break;
+
   case "/shay.html":
     const position = document.querySelector(".notVisited");
     position.classList.toggle("visited");
@@ -15,3 +15,5 @@ switch (url) {
   default:
     page = "other";
 }
+
+console.log(url);

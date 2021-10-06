@@ -354,3 +354,15 @@ p {
 .visited {
   background-color: var(--lime) !important;
 }
+
+/* CSS package */
+
+#a_package {
+  background-color: var(--noir);
+  color: var(--beige);
+}
+
+#a_packetage_list li {
+  color: var(--lime);
+  font-size: 30px;
+}

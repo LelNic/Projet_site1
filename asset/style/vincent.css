@@ -343,6 +343,10 @@ p {
 
 /* 5 Classes */
 
+.active {
+  background-color: var(--lime) !important;
+}
+
 .mobile {
   display: none;
 }

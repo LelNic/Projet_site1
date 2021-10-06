@@ -41,7 +41,7 @@
     </a>
     <main>
       <div id="wrap"></div>
-      <header><h1>« Faire Revivre Le Passé »</h1></header>
+      <header><h1>« Coucou Nico »</h1></header>
       <section id="home">
         <article>
           <h1>Make History Great Again</h1>

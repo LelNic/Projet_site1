@@ -13,20 +13,29 @@
 }
 
 body {
-    background-color: #e4e0df;
+    /*background-color: #e4e0df;*/
 }
 
 nav ul {
     display: flex;
     justify-content: space-around;
     background-color: #4f593f;
-    color: white;
+    color: #e4e0df;
     font-size: 1.5rem;
     list-style: none;
     font-family: 'Cinzel', serif;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     align-items: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #e4e0df;
+}
+
+nav ul li a:visited {
+    color: #e4e0df;
 }
 
 .logo {
@@ -42,10 +51,21 @@ h1 {
 
 h2 {
     color: #adcd62;
+    text-align: left;
+    margin-left: 4rem;
 }
 
 p {
     color: #e4e0df;
+    text-align: left;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.p2 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
 }
 
 header {
@@ -53,8 +73,28 @@ header {
 }
 
 main {
-    /*background-image: url("../style/photo.png");*/
-    background-color: #202426;
-    padding-top: 5rem;
+    background-image: url("../images/DDAY3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #202426;*/
     padding-bottom: 25rem;
+}
+
+.imgs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgs img {
+    width: 30%;
+    padding-top: 8rem;
+}
+
+footer {
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+    background-color: #202426;
+    color: #b7aea7;
 }

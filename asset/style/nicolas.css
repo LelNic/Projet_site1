@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --noir: #202426;
+    --lime: #adcd62;
+    --vert: #4f593f;
+    --marron: #b7aea7;
+    --beige: #e4e0df;
+    --bleu: #3e3f57;
+}
+
+body {
+    /*background-color: #e4e0df;*/
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4f593f;
+    color: #e4e0df;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: 'Cinzel', serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #e4e0df;
+}
+
+nav ul li a:visited {
+    color: #e4e0df;
+}
+
+.logo {
+    height: 10vh;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    color: #e4e0df;
+}
+
+h2 {
+    color: #adcd62;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+p {
+    color: #e4e0df;
+    text-align: left;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.p2 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+header {
+    padding-bottom: 0.5rem;
+}
+
+main {
+    background-image: url("../images/DDAY3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #202426;*/
+    padding-bottom: 25rem;
+}
+
+.imgs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgs img {
+    width: 30%;
+    padding-top: 8rem;
+}
+
+footer {
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+    background-color: #202426;
+    color: #b7aea7;
+}

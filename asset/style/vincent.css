@@ -269,16 +269,6 @@ p {
   display: none;
 }
 
-#history {
-  background-color: var(--beige);
-  justify-content: space-around;
-  align-items: center;
-}
-
-#history article {
-  width: 30%;
-}
-
 #label {
   display: none;
 }
@@ -339,6 +329,22 @@ p {
 
 #wrap {
   height: 11vh;
+}
+
+/* History CSS */
+
+#history {
+  background-color: var(--beige);
+  padding: 0;
+}
+
+#history article {
+  width: 50%;
+  margin: 5vw;
+}
+
+#soldatPlage {
+ height: 100%;
 }
 
 /* 5 Classes */

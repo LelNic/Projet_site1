@@ -3,7 +3,7 @@
 
   article {
     padding: 5vh;
-    width: 95vw;
+    width: 90vw;
   }
 
   article h1 {
@@ -11,16 +11,12 @@
     text-align: center;
   }
 
-  img {
-    max-width: 100%;
-  }
-
   header {
     height: 20vh;
   }
 
   header h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   main {
@@ -45,7 +41,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
   }
 
   nav ul li {
@@ -56,22 +51,16 @@
     display: none;
   }
 
-  section {
-    padding: 0.5vh;
+  img {
+    max-width: 100%;
   }
+
   /* 3 inline */
 
   /* 4 ID */
-  #history {
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
 
   #home {
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   #label {
@@ -85,20 +74,7 @@
   }
 
   #label i {
-    width: auto;
-    font-size: 2.5rem;
-    position: fixed;
-  }
-
-  #ligne {
-    height: 1vh;
-    width: 100%;
-    margin-top: 0vh;
-  }
-
-  #ligne a {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 20vw;
   }
 
   #logo {
@@ -109,41 +85,12 @@
     z-index: 2;
   }
 
-  #package {
-    height: auto;
-    text-align: justify;
-  }
-
-  #package h2 {
-    font-size: 0.8rem;
-    text-align: center;
-  }
-
-  #package img:hover {
-    width: 100%;
-  }
-
-  #reconstitution {
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-  }
-
-  #shay {
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-  }
-
   #toggle:checked ~ nav {
     display: flex;
     flex-direction: column;
   }
 
   /* 5 Classes */
-  .intern {
-    flex-wrap: wrap;
-  }
 
   .mobile {
     display: flex;
@@ -151,12 +98,5 @@
 
   .not-mobile {
     display: none;
-  }
-
-  .slick-prev,
-  .slick-next {
-    height: 3vh;
-    margin: 1vw;
-    font-size: 1.4rem;
   }
 }

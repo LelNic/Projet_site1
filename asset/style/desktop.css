@@ -41,13 +41,24 @@
   section {
     height: 100vh;
     width: 100%;
-    flex-direction: row;
     min-height: auto;
+    padding: 0;
+    padding-top: 14vh;
   }
 
   /* 3 inline */
 
+  h2 {
+    font-size: 3rem;
+    padding: 1vw;
+  }
+
   /* 4 ID */
+
+  #fleche1 {
+    position: absolute;
+    bottom: 0;
+  }
 
   #history {
     padding-top: 14vh;
@@ -81,24 +92,30 @@
     display: flex;
   }
 
-  #package {
-    padding-top: 20vh;
+  #package h1 {
+    margin-bottom: 3vh;
   }
+
+  #package p {
+    color: var(--bleu);
+  }
+
   #reconstitution {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 12vh;
   }
 
   #shay {
     flex-direction: column;
-    padding-top: 11vh;
+  }
+
+  #tank {
+    height: 80%;
   }
 
   #history {
     flex-direction: column;
-    padding-top: 11vh;
   }
   /* 5 Classes */
 
@@ -111,7 +128,7 @@
   }
 
   .intern {
-    flex-direction: row;
+    height: 60vh;
   }
 
   .minilogo {
@@ -126,12 +143,13 @@
     display: flex;
   }
 
-  .slick-slider {
-    height: 95%;
+  .slick-slide {
+    height: 70vh !important;
   }
 
-  .slick-slider img {
-    width: 40%;
+  .slick-slide img {
+    height: 40%;
+    width: auto;
   }
 
   .slick-prev,

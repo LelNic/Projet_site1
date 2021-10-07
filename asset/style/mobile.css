@@ -327,7 +327,6 @@ p {
 
 #package h2 {
   font-size: 2rem;
-  color: var(--beige);
   padding: 3vh;
   text-align: center;
 }
@@ -350,7 +349,6 @@ p {
   font-size: 2rem;
   text-align: center;
   line-height: 4rem;
-  color: var(--beige);
 }
 
 #toggle {

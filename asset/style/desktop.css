@@ -14,7 +14,7 @@
 
   header h1 {
     font-size: 4rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 1vh;
   }
   nav {
@@ -34,6 +34,10 @@
     border: none;
   }
 
+  nav ul li a {
+    font-size: 1.1rem;
+  }
+
   section {
     height: 100vh;
     width: 100%;
@@ -44,6 +48,10 @@
   /* 3 inline */
 
   /* 4 ID */
+
+  #history {
+    padding-top: 14vh;
+  }
 
   #home {
     height: 60vh;
@@ -88,6 +96,10 @@
     padding-top: 11vh;
   }
 
+  #history {
+    flex-direction: column;
+    padding-top: 11vh;
+  }
   /* 5 Classes */
 
   .active {

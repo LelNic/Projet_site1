@@ -1,40 +1,200 @@
-/* 2 Block */
+/*
+1. RESET
+2. Blocks
+3. Inline
+4. ID
+5. Classes
+*/
 
-article {
-  padding: 5vh;
-  width: 95vw;
+:root {
+  --noir: #202426;
+  --lime: #adcd62;
+  --vert: #4f593f;
+  --marron: #b7aea7;
+  --beige: #e4e0df;
+  --bleu: #3e3f57;
 }
 
-article h1 {
-  font-size: 2rem;
-  text-align: center;
+/* 1 RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 2 Block */
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  z-index: 1;
+}
+
+article {
+  width: 100%;
+  height: auto;
+}
+
+article p {
+  margin-top: 3vh;
+}
+
+body {
+  font-family: "Bodoni Moda", serif;
 }
 
 img {
   max-width: 100%;
 }
 
-header {
-  height: 20vh;
-}
-
-header h1 {
-  font-size: 1.5rem;
-}
-
-main {
-  height: auto !important;
-  padding-bottom: 5vh;
-}
-
 nav {
+  height: 10vh;
+  position: fixed;
+  width: 100%;
   display: none;
   height: auto;
+  margin-top: 11vh;
+  background: rgba(80, 92, 63, 0.9);
 }
 
 nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
   height: auto;
+}
+
+nav ul li {
+  border-top: solid 2px white;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 nav ul li,
@@ -44,95 +204,158 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
-}
-
-nav ul li {
-  border-bottom: 2px solid white;
-}
-
-nav ul li::after {
-  display: none;
 }
 
 section {
-  padding: 0.5vh;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 1vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 /* 3 inline */
 
-/* 4 ID */
-#history {
-  height: auto;
-  flex-wrap: wrap;
-  flex-direction: column;
+a {
+  text-decoration: none;
 }
 
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 150%;
+  color: var(--lime);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+/* 4 ID */
+
 #home {
-  height: auto;
-  flex-wrap: wrap;
+  background-color: var(--beige);
   flex-direction: column-reverse;
+  padding-top: 14vh;
 }
 
 #label {
-  display: flex;
   font-size: 3rem;
   color: white;
   height: 10vh;
-  background: rgba(80, 92, 63, 0.9);
-  justify-content: center;
-  align-items: center;
-  position: fixed;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #label i {
-  width: auto;
-  font-size: 2.5rem;
+  font-size: 4rem;
+  position: fixed;
+  top: 5vh;
+  margin-top: -2rem;
+  left: 50vw;
+  margin-left: -2rem;
+  z-index: 10;
 }
 
 #ligne {
   height: 1vh;
   width: 100%;
-  margin-top: 0vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 10vh;
+  left: 0;
+}
+
+#menu {
+  position: fixed;
+  height: 11vh;
+  background: rgba(80, 92, 63, 0.9);
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 #ligne a {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  background-color: white;
 }
 
 #logo {
   display: none;
 }
 
-#logo img {
-  z-index: 2;
+#package {
+  flex-direction: column;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--noir);
+  background-image: url("../images/package_bg.png");
+  background-size: cover;
+  background-position: center;
 }
 
-#package {
-  height: auto;
-  text-align: justify;
+#package p {
+  color: var(--beige);
+  padding: 2vw;
+}
+
+#package h1 {
+  font-size: 3rem;
+  color: var(--beige);
+  text-align: center;
+  line-height: 1;
 }
 
 #package h2 {
-  font-size: 0.8rem;
+  font-size: 2rem;
+  color: var(--beige);
+  padding: 3vh;
   text-align: center;
 }
 
-#package img:hover {
-  width: 100%;
-}
-
-#reconstitution {
-  height: auto;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
-}
-
 #shay {
-  height: auto;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
+  background-color: var(--noir);
+}
+
+#shay p {
+  color: var(--beige);
+}
+
+#shay h1 {
+  font-size: 3rem;
+  color: var(--beige);
+  margin-bottom: 2vh;
+}
+
+#shay h2 {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 4rem;
+  color: var(--beige);
+}
+
+#toggle {
+  position: absolute;
+  left: -100vw;
 }
 
 #toggle:checked ~ nav {
@@ -141,8 +364,13 @@ section {
 }
 
 /* 5 Classes */
-.intern {
-  flex-wrap: wrap;
+
+.active {
+  background-color: var(--lime) !important;
+}
+
+.inner {
+  display: flex;
 }
 
 .mobile {
@@ -153,11 +381,50 @@ section {
   display: none;
 }
 
+.slick-slider {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.slick-slider img {
+  width: 80%;
+}
+
+.slick-list {
+  width: 100%;
+  height: 100%;
+}
+
+.intern {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .slick-prev,
 .slick-next {
-  height: 3vh;
-  margin: 1vw;
-  font-size: 1.4rem;
+  height: 5vh;
+  margin: 2vw;
+  border: none;
+  background: none;
+  font-size: 5rem;
+  color: var(--beige);
+  display: none !important;
 }
-@media screen and (min-width: 375px) {
+
+/* CSS package */
+
+#a_package {
+  background-color: var(--noir);
+  color: var(--beige);
+}
+
+#a_packetage_list li {
+  color: var(--lime);
+  font-size: 30px;
 }

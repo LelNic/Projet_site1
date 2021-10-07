@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="asset/style/style.css" />
-    <!-- <link rel="stylesheet" href="asset/style/mobile3.css" /> -->
     <link rel="stylesheet" href="asset/style/mobile.css" />
+    <link rel="stylesheet" href="asset/style/desktop.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto:wght@100&display=swap" rel="stylesheet" />
@@ -15,35 +14,36 @@
     <title>Make History Great Again</title>
   </head>
   <body id="accueil">
-    <label for="toggle" id="label"><i class="fas fa-bars"></i></label>
-    <input type="checkbox" id="toggle" class="hidden" />
-    <nav>
-      <ul>
-        <li><a href="#shay">One In a Million</a></li>
-        <li><a href="#history">Le prix de la Liberté</a></li>
-        <li><a href="#package">Le poids des Maux</a></li>
-        <li><a href="#reconstitution">Never Forget</a></li>
+    <div id="menu">
+      <label for="toggle" id="label"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="toggle" class="hidden" />
+      <nav>
+        <ul>
+          <li><a href="#shay">One In a Million</a></li>
+          <li><a href="#history">Le prix de la Liberté</a></li>
+          <li><a href="#package">Le poids des Maux</a></li>
+          <li><a href="#reconstitution">Never Forget</a></li>
+        </ul>
+      </nav>
+      <ul id="ligne">
+        <a href="#shay">
+          <li></li>
+        </a>
+        <a href="#history">
+          <li></li>
+        </a>
+        <a href="#package">
+          <li></li>
+        </a>
+        <a href="#reconstitution">
+          <li></li>
+        </a>
       </ul>
-    </nav>
-    <ul id="ligne">
-      <a href="#shay">
-        <li></li>
+      <a href="#accueil">
+        <img src="asset/images/logoMHGA.png" alt="" id="logo" srcset="" />
       </a>
-      <a href="#history">
-        <li></li>
-      </a>
-      <a href="#package">
-        <li></li>
-      </a>
-      <a href="#reconstitution">
-        <li></li>
-      </a>
-    </ul>
-    <a href="#accueil">
-      <img src="asset/images/logoMHGA.png" alt="" id="logo" srcset="" />
-    </a>
+    </div>
     <main>
-      <div id="wrap"></div>
       <header class="not-mobile"><h1>« Faire Revivre le Passé »</h1></header>
       <section id="home">
         <article>
@@ -53,9 +53,9 @@
             Deleniti, aliquid dolores cum illum incidunt nemo soluta odit, accusamus consectetur reprehenderit pariatur enim, ut dolore! Quae voluptatibus aliquid, facere nihil laudantium illo maxime
             ut omnis veritatis. Ex aliquam ut perferendis odio est repellendus vel corrupti tenetur magnam, officiis dolorem quam sed hic, veniam ea pariatur distinctio impedit soluta ipsum ad
           </p>
-          <a href="#shay"><img id="fleche" src="asset/images/fleche.png" alt="" /></a>
         </article>
         <img id="tank" src="asset/images/home.png" alt="" />
+        <a href="#shay"><img id="fleche" src="asset/images/fleche.png" alt="" /></a>
       </section>
 
       <section id="shay" data-spy>
@@ -109,7 +109,7 @@
         </div>
         <img id="fleche" src="asset/images/fleche.png" alt="" />
       </section>
-    <section id="history" data-spy>
+      <section id="history" data-spy>
         <img
           src="asset/images/soldats.png"
           alt="soldat sur la plage"
@@ -258,7 +258,6 @@
         <h1>Never Forget</h1>
         <article>
           <h2>le travaille de "memoire"</h2>
-          <br />
           <p>
             La reconstitution historique est une pratique qui consiste à recréer certains aspects d'un événement passé, d'une période historique ou d'un mode de vie précis, en s'appuyant sur des
             éléments matériels reproduisant celui de la période concernée (vêtement, mobilier, armement, etc.). Cette activité peut ressembler, par exemple, à la reconstitution d'une célèbre bataille

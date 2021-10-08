@@ -5,7 +5,6 @@ const progress = () => {
   let scrollPercent = scrollTop / (docHeight - winHeight);
   let scrollPercentRounded = Math.round(scrollPercent * 100);
   document.getElementById("progress").style.width = scrollPercentRounded + "%";
-  console.log(scrollPercentRounded);
 };
 
 window.addEventListener("scroll", (event) => {

@@ -172,6 +172,20 @@
 
   .slick-prev,
   .slick-next {
+    height: 5vh;
+    border: none;
+    background: none;
+    font-size: 5rem;
+    color: var(--beige);
     display: flex !important;
+    margin: auto;
+  }
+
+  .slick-slider,
+  .slick-track,
+  .slick-slide {
+    width: 100%;
+    z-index: 0;
+    min-height: auto !important;
   }
 }

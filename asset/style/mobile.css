@@ -228,19 +228,6 @@ h1 {
   text-align: center;
   line-height: 150%;
   text-transform: uppercase;
-  margin-bottom: 5rem;
-}
-
-h1:after {
-  content: "\f053 \ \f054";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: absolute;
-  margin-top: 4rem;
-  color: var(--lime);
-  font-size: 3rem;
-  width: 100vw;
-  left: 0;
 }
 
 h2 {
@@ -278,10 +265,6 @@ p {
 
 #home h1 {
   margin-bottom: 1vh;
-}
-
-#home h1:after {
-  display: none;
 }
 
 #label {
@@ -353,9 +336,6 @@ p {
 }
 
 #package {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--noir);
   background-image: url("../images/package/package_bg.png");
   background-size: contain;
@@ -425,12 +405,20 @@ p {
   display: none;
 }
 
-.slick-slider {
+.slick-slider,
+.slick-track,
+.slick-slide {
   display: flex !important;
   align-items: center;
   justify-content: center;
   width: 100%;
   z-index: 0;
+  min-height: 100vh !important;
+}
+
+.slick-list {
+  display: flex !important;
+  justify-content: flex-start !important;
 }
 
 .slick-slider img {
@@ -439,7 +427,6 @@ p {
 
 .slick-slide {
   padding: 20px;
-  width: 100%;
   background-color: var(--beige);
   border-radius: 25px;
   display: flex;
@@ -451,7 +438,7 @@ p {
 .intern {
   display: flex !important;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -460,7 +447,7 @@ p {
   height: 5vh;
   border: none;
   background: none;
-  font-size: 5rem;
+  font-size: 2rem;
   color: var(--beige);
-  display: none !important;
+  margin-top: -100vh;
 }

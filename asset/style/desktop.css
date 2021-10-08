@@ -163,6 +163,7 @@
 
   .slick-slide {
     height: 70vh !important;
+    width: 90vw !important;
   }
 
   .slick-slide img {
@@ -184,8 +185,8 @@
   .slick-slider,
   .slick-track,
   .slick-slide {
-    width: 100%;
     z-index: 0;
     min-height: auto !important;
+    min-width: auto !important;
   }
 }

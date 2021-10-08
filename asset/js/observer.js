@@ -9,11 +9,16 @@ const spies = document.querySelectorAll("[data-spy]");
 const activate = function (elem) {
   const id = elem.getAttribute("id");
   const anchor = document.querySelector(`#ligne a[href="#${id}"]`);
+  const logo = document.getElementById("logo");
+  const top = document.getElementById("toTop");
   if (anchor === null) {
     return null;
   }
   anchor.parentElement.querySelectorAll(".active").forEach((node) => node.classList.remove("active"));
   anchor.classList.add("active");
+  logo.src = "asset/images/logo.png";
+  logo.style.top = "2vh";
+  top.style.display = "flex";
 };
 
 /**

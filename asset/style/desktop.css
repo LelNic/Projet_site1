@@ -45,13 +45,18 @@
     width: 100%;
     min-height: auto;
     padding: 0;
-    padding-top: 14vh;
+    padding-top: 5vh;
   }
 
   /* 3 inline */
 
   h1 {
     font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  h1:after {
+    display: none;
   }
 
   h2 {
@@ -67,10 +72,6 @@
   #fleche1 {
     position: absolute;
     bottom: 0;
-  }
-
-  #history {
-    padding-top: 14vh;
   }
 
   #home {
@@ -157,12 +158,11 @@
   }
 
   .slick-slider {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   .slick-slide {
     height: 70vh !important;
-    margin: 1vw;
   }
 
   .slick-slide img {

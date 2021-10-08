@@ -254,7 +254,11 @@ p {
 }
 
 #history {
-  background-color: var(--marron);
+  background-color: var(--noir);
+}
+
+#history h1 {
+  color: var(--beige);
 }
 
 #home {
@@ -356,11 +360,11 @@ p {
 }
 
 #shay {
-  background-color: var(--noir);
+  background-color: var(--marron);
 }
 
 #shay h1 {
-  color: var(--beige);
+  color: var(--bleu);
 }
 
 #toggle {
@@ -391,6 +395,16 @@ p {
 
 .active {
   background-color: var(--lime) !important;
+}
+
+.img_width {
+  width: 40% !important;
+  height: auto !important;
+}
+
+.img_height {
+  height: 70% !important;
+  width: auto !important;
 }
 
 .inner {

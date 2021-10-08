@@ -226,6 +226,7 @@ h1 {
   font-size: 4rem;
   text-align: center;
   line-height: 150%;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -233,6 +234,7 @@ h2 {
   text-align: center;
   line-height: 150%;
   color: var(--lime);
+  text-transform: uppercase;
 }
 
 p {
@@ -284,6 +286,7 @@ p {
   position: fixed;
   top: 10vh;
   left: 0;
+  z-index: -1;
 }
 
 #ligne a {
@@ -291,6 +294,10 @@ p {
   height: 1.3rem;
   border-radius: 50%;
   background-color: white;
+}
+
+#ligne a:nth-child(4) {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #ligne progress {
@@ -320,6 +327,7 @@ progress[value]::-webkit-progress-value {
 }
 
 #logo {
+  z-index: 3;
   display: none;
 }
 

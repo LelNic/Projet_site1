@@ -103,11 +103,11 @@
             <h2>Un Souvenir Persistant</h2>
             <div class="intern">
               <p>
-                Cette passion mes venus de ma famille ou l'histoire est tres présente. j'etait un neophite. Ma curiositer a fait que je l'es est suivis dans cette aventure, au fils des années. Depuis que j'exerce cette passion j'ai pu vivre des
-                moment intense et fort en émotions, et meme certaines sur lequel je ne pourait mettre de mots. Participé a des deffilé des commemorations, rencontré des personnes devant lesquelle vous pouvez resentir que le plus profond des respects
-                et la plus grande humilité, et qui ne veulent pas etre consider comme des heros car un heros n'est plus de ce monde. ces personnes qui vous remercie pour ce que vous faites pour ne pas oublies ceux qui sont malheuresement plus la pour
-                en parler. Pouvoir se balader en tank avec les copains patager des feux de camps qui dure des nuits entiere vivre comme ces personnes qui a l'epoque n'ont eu d'autre choix que de faire leur devoir pour la liberter et qui grace a eux
-                aujourd'huit nous pouvons juir de celle ci. Nous sommes la pour entretenir le devoir de memoire pour que l'histoire ne tombe pas dans l'oublie et continuer a rendre vivant les livres d'histoires
+                Cette passion m'est venue de ma famille où l'histoire est tres présente. j'etait un neophyte. Ma curiositer a fait que je l'ai est suivi dans cette aventure, au fil des années. Depuis que j'exerce cette passion j'ai pu vivre des
+                momens intenses et fors en émotions, et meme certaines sur lequelles je ne pourrai mettre des mots. Participé à des defilés des commémorations, rencontré des personnes devant lesquelles vous pouvez resentir que le plus profond des respects
+                et la plus grande humilité, et qui ne veulent pas être considerées comme des héros, car un "heros" ne sont plus de ce monde. ces personnes qui vous remercient pour ce que vous faites pour ne pas oublies ceux qui sont malheuresement plus la pour
+                en parler. Pouvoir se balader en vehicule d'époque avec les copains patager des feux de camps qui durent des nuits entiere vivre comme ces personnes qui a l'epoque n'ont eu d'autre choix que de faire leur devoir pour la liberté et qui grace a eux
+                aujourd'huit nous pouvons juir de celle ci. Nous sommes là pour entretenir le devoir de memoire pour que l'Histoire ne tombe pas dans l'oublie et continuer à rendre vivant les livres d'histoire
               </p>
               <img src="asset/images/reconstitution/nico.jpg" alt="Nicolas Lelievre" class="img_height" />
             </div>
